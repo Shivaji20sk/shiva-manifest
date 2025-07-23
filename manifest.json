@@ -1,11 +1,11 @@
 {
-  "name": "Erzy zone",
-  "short_name": "EZ",
+  "name": "Money Earning Hub",
+  "short_name": "Moneyhub",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ff00ff",
-  "orientation": "Any",
+  "orientation": "any",
   "icons": [
     {
       "src": "https://res.cloudinary.com/dtz0urit6/image/upload/f_png,q_auto/cloudinary-tools-uploads/hsguqj4dtvddglsbevob.png",
@@ -17,5 +17,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "description": "100% Free to Join &amp; Use\n\n💼 Multiple Earning Options: Surveys, Tasks, Freelancing, Cashback, and more\n\n💸 Real Rewards: Redeem via PayPal, bank transfer, or gift cards\n\n🔒 Safe &amp; Secure: We list only verified and legitimate platforms\n\n🌍 Available Worldwide (with region-based opportunities)"
 }
