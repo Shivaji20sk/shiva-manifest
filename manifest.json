@@ -3,17 +3,17 @@
   "short_name": "EZ",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ff0ffff",
+  "background_color": "#ffffff",
   "theme_color": "#ff00ff",
   "orientation": "Any",
   "icons": [
     {
-      "src": "https://i.ibb.co/Y679zR0/Screenshot-20250720-150619.jpg",
+      "src": "https://res.cloudinary.com/dtz0urit6/image/upload/f_png,q_auto/cloudinary-tools-uploads/hsguqj4dtvddglsbevob.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://i.ibb.co/Y679zR0/Screenshot-20250720-150619.jpg",
+      "src": "https://res.cloudinary.com/dtz0urit6/image/upload/f_png,q_auto/cloudinary-tools-uploads/hsguqj4dtvddglsbevob.png",
       "sizes": "512x512",
       "type": "image/png"
     }
