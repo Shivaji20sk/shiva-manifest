@@ -1,0 +1,91 @@
+{
+  "id": "/new-money-app/",
+  "name": "FF Request",
+  "short_name": "Free fire.o.CMD",
+  "description": "The ultimate hub for multiple earning options including surveys, tasks, and freelancing opportunities.",
+  "lang": "hi-IN",
+  "start_url": "/new-money-app/",
+  "scope": "/new-money-app/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#ffffff",
+  "theme_color": "#ff00ff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://iili.io/f2nIJV4.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://iili.io/f2nIJV4.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://iili.io/f2nIJV4.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://iili.io/f2nIJV4.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "Dashboard preview"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Start Earning Now",
+      "short_name": "Earn Now",
+      "description": "Quickly access the main earning dashboard.",
+      "url": "/new-money-app/dashboard",
+      "icons": [
+        {
+          "src": "https://iili.io/f2nIJV4.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Check Wallet",
+      "short_name": "Wallet",
+      "description": "View your current balance and withdrawal history.",
+      "url": "/new-money-app/wallet",
+      "icons": [
+        {
+          "src": "https://iili.io/f2nIJV4.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "categories": ["finance", "productivity"],
+  "share_target": {
+    "action": "/new-money-app/share",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "name",
+      "text": "description",
+      "url": "link"
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+shiva",
+      "url": "/new-money-app/?uri=%s"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://skshivajicom.blogspot.com",
+      "id": "com.example.shiva"
+    }
+  ],
+  "prefer_related_applications": false
+}
